@@ -26,6 +26,7 @@ Thank you.
 
 ###### How to use
 Add the latitude and longitude you want to specify in the next part.
+
 calc.js
 ```calc.js
 function staticLoadPlaces() {
@@ -43,6 +44,7 @@ function staticLoadPlaces() {
 ```
 
 If you want to use gftf, you can change it as follows.
+
 calc.js
 add model name to staticLoadPlaces.
 ```calc.js
@@ -61,6 +63,7 @@ function staticLoadPlaces() {
 ```
 Change the display section as follows.
 assets directory contains gltf files.
+
 calc.js
 ```calc.js
 function renderPlaces(places, pos) {
